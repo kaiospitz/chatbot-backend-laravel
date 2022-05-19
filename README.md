@@ -11,10 +11,6 @@ The frontend can be found here: https://github.com/kaiospitz/chatbot-frontend-vu
 ## Build Setup
 
 ```bash
-
-# clone git
-git clone kaiospitz/chatbot-backend-laravel
-
 # install dependencies
 composer install
 
