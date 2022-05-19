@@ -8,11 +8,25 @@ Live Demo: https://kaiospitz.com.br/yodabot/
 
 The frontend can be found here: https://github.com/kaiospitz/chatbot-frontend-vue-nuxt/
 
-## Clone instructtions
-1. Run: git clone kaiospitz/chatbot-backend-laravel
-2. Run: composer install
-3. Run: cp .env.example .env
-4. Run: php artisan key:generate
-5. Run: php artisan migrate
-6. Run: php artisan serve
-7. Access the server by visiting: http://localhost:8000/
+## Build Setup
+
+```bash
+
+# clone git
+git clone kaiospitz/chatbot-backend-laravel
+
+# install dependencies
+composer install
+
+# create .env file
+cp .env.example .env
+
+# generate secret key
+php artisan key:generate
+
+# create database
+php artisan migrate
+
+# run the server at localhost:8000
+php artisan serve
+```
